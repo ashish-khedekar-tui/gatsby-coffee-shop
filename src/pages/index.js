@@ -15,7 +15,6 @@ const IndexPage = ({ data }) => (
       title="Mo's Kitchen"
       styleClass="default-background"
     />
-    <Info />
     <Menu items={data.menu} />
   </Layout>
 )
